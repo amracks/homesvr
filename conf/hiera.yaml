@@ -1,0 +1,7 @@
+---
+:backends: yaml
+:yaml:
+    :datadir: /root/homesvr/conf
+:hierarchy:
+    - config
+:logger: console
