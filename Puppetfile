@@ -6,3 +6,6 @@ mod "pmods/samba",
 mod "pmods/tomcat7",
     :git => "git@github.com:pmods/tomcat7.git"
 
+mod "pmods/jenkins",
+    :git => "git@github.com:pmods/jenkins.git"
+
