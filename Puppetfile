@@ -9,3 +9,6 @@ mod "pmods/tomcat7",
 mod "pmods/jenkins",
     :git => "git@github.com:pmods/jenkins.git"
 
+mod "pmods/vim",
+    :git => "git@github.com:pmods/vim.git"
+
