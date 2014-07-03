@@ -8,9 +8,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.guest = :freebsd
   config.vm.box = "FBSD10x64.box"
 
-  config.vm.provision :puppet do |puppet|
-    puppet.manifests_path = "manifests"
-    puppet.manifest_file  = "init.pp"
-    puppet.module_path    = "modules"
+  config.vm.network :private_network, ip: "192.168.200.51"
+
+  config.vm.synced_folder ".", "/vagrant", :nfs => true, id: "vagrant-root" #, disabled: true
+
+  config.vm.provider :virtualbox do |vb|
+    vb.customize ["modifyvm", :id, "--nictype1", "82540EM"]
+    vb.customize ["modifyvm", :id, "--nictype2", "82540EM"]
   end
+
 end
