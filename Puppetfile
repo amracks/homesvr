@@ -12,3 +12,6 @@ mod "pmods/jenkins",
 mod "pmods/vim",
     :git => "git@github.com:pmods/vim.git"
 
+mod "pmods/javadev",
+    :git => "git@github.com:pmods/javadev.git"
+
