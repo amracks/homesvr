@@ -18,3 +18,9 @@ mod "pmods/javadev",
 mod "pmods/nginx",
     :git => "git@github.com:pmods/nginx.git"
 
+mod "pmods/bind910",
+    :git => "git@github.com:pmods/bind910.git"
+
+mod "pmods/ntfs3g",
+    :git => "git@github.com:pmods/ntfs3g.git"
+
