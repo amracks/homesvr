@@ -5,3 +5,13 @@ include vim
 include javadev
 include nginx
 include ntfs3g
+
+include pkgng
+
+$packages = [
+    'tmux'
+]
+
+package { $packages :
+    ensure => installed,
+}
