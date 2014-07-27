@@ -11,6 +11,7 @@ include pkgng
 
 $packages = [
     'tmux',
+    'zsh',
     'virtualbox-ose'
 ]
 
