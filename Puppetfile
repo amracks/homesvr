@@ -24,3 +24,6 @@ mod "pmods/bind910",
 mod "pmods/ntfs3g",
     :git => "git@github.com:pmods/ntfs3g.git"
 
+mod "pmods/sendmail",
+    :git => "git@github.com:pmods/sendmail.git"
+
