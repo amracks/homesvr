@@ -9,7 +9,8 @@ include ntfs3g
 include pkgng
 
 $packages = [
-    'tmux'
+    'tmux',
+    'virtualbox-ose'
 ]
 
 package { $packages :
