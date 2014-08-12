@@ -1,0 +1,21 @@
+[submodule "samba"]
+	path = modules/samba
+	url = git@github.com:pmods/samba
+[submodule "tomcat7"]
+	path = modules/tomcat7
+	url = git@github.com:pmods/tomcat7
+[submodule "jenkins"]
+	path = modules/jenkins
+	url = git@github.com:pmods/jenkins
+[submodule "vim"]
+	path = modules/vim
+	url = git@github.com:pmods/vim
+[submodule "javadev"]
+	path = modules/javadev
+	url = git@github.com:pmods/javadev
+[submodule "nginx"]
+	path = modules/nginx
+	url = git@github.com:pmods/nginx
+[submodule "sendmail"]
+	path = modules/sendmail
+	url = git@github.com:pmods/sendmail
