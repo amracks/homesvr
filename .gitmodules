@@ -19,3 +19,6 @@
 [submodule "sendmail"]
 	path = modules/sendmail
 	url = git@github.com:pmods/sendmail
+[submodule "pkgng"]
+	path = modules/pkgng
+	url = https://github.com/xaque208/puppet-pkgng.git
