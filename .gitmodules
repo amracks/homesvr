@@ -22,3 +22,6 @@
 [submodule "pkgng"]
 	path = modules/pkgng
 	url = https://github.com/xaque208/puppet-pkgng.git
+[submodule "stdlib"]
+	path = modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
