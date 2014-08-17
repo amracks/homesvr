@@ -13,7 +13,13 @@ $packages = [
     'tmux',
     'zsh',
     'bash',
-    'virtualbox-ose'
+    'virtualbox-ose',
+    'autoconf',
+    'automake',
+    'libtool',
+    'bison',
+    'sqlite3',
+    'gdbm'
 ]
 
 package { $packages :
