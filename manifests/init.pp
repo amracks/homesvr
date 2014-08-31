@@ -13,7 +13,17 @@ $packages = [
     'tmux',
     'zsh',
     'bash',
-    'virtualbox-ose'
+    'virtualbox-ose',
+    'git',
+    'redis',
+    'icu',
+    'libxml2',
+    'libxslt',
+    'python2',
+    'sudo',
+    'gcc',
+    'gmake',
+    'postgresql92-server'
 ]
 
 package { $packages :
