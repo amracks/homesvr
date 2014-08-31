@@ -10,20 +10,26 @@ include sendmail
 include pkgng
 
 $packages = [
-    'tmux',
-    'zsh',
+    'autoconf',
+    'automake',
     'bash',
-    'virtualbox-ose',
+    'bison',
+    'gcc',
+    'gdbm',
     'git',
-    'redis',
+    'gmake',
     'icu',
+    'libtool',
     'libxml2',
     'libxslt',
-    'python2',
-    'sudo',
-    'gcc',
-    'gmake',
     'postgresql92-server'
+    'python2',
+    'redis',
+    'sqlite3',
+    'sudo',
+    'tmux',
+    'virtualbox-ose',
+    'zsh'
 ]
 
 package { $packages :
