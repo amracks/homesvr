@@ -22,7 +22,7 @@ $packages = [
     'libtool',
     'libxml2',
     'libxslt',
-    'postgresql92-server'
+    'postgresql92-server',
     'python2',
     'redis',
     'sqlite3',
